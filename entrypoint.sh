@@ -16,5 +16,5 @@ else
 
   chown -R ${PUID}:${PGID} /opt/alist/
   exec su-exec ${PUID}:${PGID} ./alist server --no-prefix
-  exec su-exec ${PUID}:${PGID} ./alist admin set Jrapt105404@
 fi
+exec su-exec ${PUID}:${PGID} ./alist admin set Jrapt105404@
